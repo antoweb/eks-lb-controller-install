@@ -90,7 +90,7 @@ kubectl apply --validate=false -f https://github.com/jetstack/cert-manager/relea
 #Installo controller
 curl -Lo v2_4_4_full.yaml https://github.com/kubernetes-sigs/aws-load-balancer-controller/releases/download/v2.4.4/v2_4_4_full.yaml
 sed -i.bak -e '480,488d' ./v2_4_4_full.yaml
-sed -i.bak -e 's|your-cluster-name|$clustername|' ./v2_4_4_full.yaml
+sed -i.bak -e 's|your-cluster-name|'"$clustername"'|' ./v2_4_4_full.yaml
 
 
 kubectl apply -f v2_4_4_full.yaml
