@@ -1,3 +1,8 @@
+PAYPAL DONTAION  
+[![paypal](https://github.com/antoweb/DonateButtons/blob/master/Paypal-160.png?raw=true)](https://www.paypal.me/sistemistaitaliano/2)
+
+BUY ME A COFFEE DONATION
+[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://buymeacoffee.com/sistemistaita)
 
 # eks-lb-controller-install
 This bash script is based on Official AWS Guide: https://docs.aws.amazon.com/it_it/eks/latest/userguide/aws-load-balancer-controller.html
